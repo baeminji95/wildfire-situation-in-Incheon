@@ -20,8 +20,8 @@ export default function GuidePage({ guideNum, setGuideNum }) {
    // 가이드 컴포넌트
    const guideArray = [<Guide0 />, <Guide1 />, <Guide2 />, <Guide3 />,<Guide4 />,<Guide5 />,<Guide6 />,<Guide7 />,<Guide8 />,<Guide9 />,<Guide10 />,<Guide11 />,];
    //스테이트 확인
-   console.log(guideNum);
-   console.log(width);
+   // console.log(guideNum);
+   // console.log(width);
 
    //뷰포트 너비 width에 저장
    const handleResize = () => {

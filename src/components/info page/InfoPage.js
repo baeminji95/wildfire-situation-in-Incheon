@@ -31,7 +31,7 @@ export default function InfoPage({
       return navigate("/");
       // 새로고침 되면 시작페이지로 넘긴다.
     }
-  });
+  },[selectedLocal]);
 
   // 선택한 로컬의 좌표, 폴리곤 등을 담을 변수
   const localData = INCHEON.find((sigun) => sigun.num === selectedLocal);

@@ -3,7 +3,7 @@ export const INCHEON = [
         name: "강화군", num: "710",
         lat: 37.74692907, lng: 126.4878417,
         centerLat: 37.74692907, centerLng: 126.3878417,
-        level: "10",
+        level: 10,
         polygon: [
             [
                 { lng: 126.32140969190657, lat: 37.75211806520702 },
@@ -47,7 +47,7 @@ export const INCHEON = [
         name: "계양구", num: "245",
         lat: 37.53770728, lng: 126.737744,
         centerLat: 37.55770728, centerLng: 126.737744,
-        level: "8",
+        level: 8,
         polygon: [
             [
                 {lat:37.52362677514272, lng:126.68845339338166},
@@ -80,7 +80,7 @@ export const INCHEON = [
         name: "남동구", num: "200",
         lat: 37.44971062, lng: 126.7309669,
         centerLat: 37.42971062, centerLng: 126.7259669,
-        level: "8",
+        level: 8,
         polygon: [
             [
                 {lat:37.47044909106752, lng:126.76635858402338},
@@ -153,7 +153,7 @@ export const INCHEON = [
         name: "미추홀구", num: "177",
         lat: 37.46369169, lng: 126.6502972,
         centerLat: 37.45869169, centerLng: 126.6602972,
-        level: "8",
+        level: 8,
         polygon: [
             [
                 {lat:37.474268750439904, lng:126.68128750375621},
@@ -177,7 +177,7 @@ export const INCHEON = [
         name: "부평구", num: "237",
         lat: 37.50784204, lng: 126.7219068,
         centerLat: 37.50084204, centerLng: 126.7219068,
-        level: "8",
+        level: 8,
         polygon: [
             [
                 {lat:37.474268750439904, lng:126.68128750375621},
@@ -213,7 +213,7 @@ export const INCHEON = [
         name: "서구", num: "260",
         lat: 37.54546372, lng: 126.6759616,
         centerLat: 37.55546372, centerLng: 126.6559616,
-        level: "9",
+        level: 9,
         polygon: [
             [
                 {lat:37.54908847663733 , lng: 126.59781870486441},
@@ -280,7 +280,7 @@ export const INCHEON = [
         name: "연수구", num: "185",
         lat: 37.40314204, lng: 126.6429068,
         centerLat: 37.39704204, centerLng: 126.6519068,
-        level: "9",
+        level: 9,
         polygon: [
             [
                 {lat:37.38212943769406, lng:126.71976307489976},
@@ -315,7 +315,7 @@ export const INCHEON = [
         name: "옹진군", num: "720",
         lat: 37.343725, lng: 125.4088889,
         centerLat: 37.543725, centerLng: 125.4088889,
-        level: "12",
+        level: 12,
         polygon: [
             [
                 { lng: 126.10489732461099, lat: 37.27365677791082 },
@@ -339,7 +339,7 @@ export const INCHEON = [
         name: "중구", num: "110",
         lat: 37.47384843, lng: 126.6217617,
         centerLat: 37.47384843, centerLng: 126.5217617,
-        level: "10",
+        level: 10,
         polygon: [
             [
                 {lat : 37.521605547801606 , lng : 126.54049007800147},

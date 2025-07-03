@@ -19,7 +19,7 @@ export default function Chart2({ data }) {
     }, []);
 
     const item = data?.response.body.items?.item;
-    console.log(item);
+    // console.log(item);
     const chartData = data?.response.body.items.item?.
         map(item => (
             [
@@ -47,9 +47,10 @@ export default function Chart2({ data }) {
 
     const COLORS = ['#00B1B0', '#0079C1', '#FD8D64', '#FF4545'];
 
-    const charts = chartData?.map((item) => (
-        <div className='w-[180px] h-[130px] smPlus:w-[200px] smPlus:h-[200px]'>
-
+    const charts = chartData?.map((item,n) => (
+        <div 
+        key={"chart2_"+n}
+        className='w-[180px] h-[130px] smPlus:w-[200px] smPlus:h-[200px]'>
             <PieChart
                 width={width > 700 ? 200 : 195}
                 height={width > 700 ? 180 : 130}>
@@ -78,7 +79,8 @@ export default function Chart2({ data }) {
         chartData &&
         <article>
             <div className='flex flex-col smPlus:flex-row'>
-                <div className='w-[180px] h-[130px] smPlus:w-[200px] smPlus:h-[200px] overflow-hidden'
+                <div 
+                className='w-[180px] h-[130px] smPlus:w-[200px] smPlus:h-[200px] overflow-hidden'
                 >
                     <div className='w-[4600px] h-[130px]
                     smPlus:w-[6900px] smPlus:h-[200px]  duration-500 flex'

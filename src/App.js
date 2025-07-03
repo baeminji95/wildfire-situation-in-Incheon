@@ -10,7 +10,7 @@ import EffectPage from "./components/EffectPage";
 
 export default function App() {
   // 선택한 지역코드
-  const [selectedLocal, setSelectedLocal] = useState("");
+  const [selectedLocal, setSelectedLocal] = useState(null);
   // 요청해서 받은 프로미스 객체 저장
   const [data, setData] = useState(null);
   //error 저장
@@ -27,8 +27,8 @@ export default function App() {
   const navigate = useNavigate();
 
   // //스테이트 추적
-  console.log("요청받은 데이터 ", data);
-  console.log("구/군 코드 ", selectedLocal);
+  // console.log("요청받은 데이터 ", data);
+  // console.log("구/군 코드 ", selectedLocal);
 
   // 선택한 지역코드(selectdLocal)이 변경되면 데이터 요청
   useEffect(() => {
@@ -67,7 +67,7 @@ export default function App() {
 
 
     //주소 확인
-    console.log(gugunUrl)
+    // console.log(gugunUrl);
 
     try {
       // 초기화
@@ -82,7 +82,7 @@ export default function App() {
     } catch (error) {
       //에러 발생하면 errorPage로 이동
       setError(error);
-      navigate("errorPage")
+      navigate("errorPage");
     } finally {
       // 로딩중? 스테이트 false로 변경(실패하든 성공하든 변경해야하기 때문) 
       setIsLoding(false);

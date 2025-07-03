@@ -21,8 +21,8 @@ export default function Chart1({ data }) {
     const [gap, setGap] = useState(0);
 
     //스테이트 확인
-    console.log(pageWidth);
-    console.log(gap);
+    // console.log(pageWidth);
+    // console.log(gap);
 
     const itmes = data?.response.body.items.item;
 
