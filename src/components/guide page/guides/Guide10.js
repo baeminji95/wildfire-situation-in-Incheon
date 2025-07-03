@@ -29,7 +29,7 @@ export default function Guide9() {
             </div>
             <div>"error message"</div>
           </div>
-          <div to="/" className="text-[#0079C1] text-lg font-semibold relative">
+          <div to="/wildfire-situation-in-Incheon" className="text-[#0079C1] text-lg font-semibold relative">
             시작페이지로 돌아가기
           {/* 설명 말풍선 */}
           <p className="w-[20rem] absolute top-[200%] left-1/2 -translate-x-1/2 px-2 py-1 z-40 bg-white flex justify-center items-center text-[0.9rem] font-semibold text-[#0079C1] tooltip1">

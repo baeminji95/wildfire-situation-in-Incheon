@@ -15,7 +15,7 @@ export default function ErrorPage({ error }) {
                     </p>
                 </div>
                 <Link
-                    to="/"
+                    to="/wildfire-situation-in-Incheon"
                     className="text-[#0079C1] text-lg font-semibold"
                 >
                     시작페이지로 돌아가기

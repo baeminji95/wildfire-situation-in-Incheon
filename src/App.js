@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Routes, Route, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 
 import StartPage from "./components/SartPage"
 import Header from "./components/Header";
@@ -101,11 +101,12 @@ export default function App() {
 
         <Routes>
           <Route
-            path="/"
+            path="/wildfire-situation-in-Incheon"
             element={
               <StartPage setSelectedLocal={setSelectedLocal} />
             }
           />
+
 
           <Route
             path="/infoPage"

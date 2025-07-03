@@ -21,7 +21,7 @@ export default function Header({ setGuideNum }) {
     <>
       <header className="fixed top-0 z-40 bg-[#DDEFFB] w-full h-20 flex justify-between items-center px-5 shadow-md">
         <Link
-          to="/"
+          to="/wildfire-situation-in-Incheon"
           className="inline-flex items-center gap-4"
           onClick={() => setOpne(false)}
         >
@@ -70,7 +70,7 @@ export default function Header({ setGuideNum }) {
           <div className="w-full h-full p-10 bg-[#DDEFFB]">
             <ul className="font-bold text-[1.1rem] text-[#0079C1] text-border flex flex-col gap-4">
               <li>
-                <Link to="guide" onClick={() => setGuideNum(0)}>전체 가이드</Link>
+                <Link to="/guide" onClick={() => setGuideNum(0)}>전체 가이드</Link>
               </li>
               <li>
                 <Link to="/guide" onClick={() => setGuideNum(3)}>시작 페이지 설명</Link>
