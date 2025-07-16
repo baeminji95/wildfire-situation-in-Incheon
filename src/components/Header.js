@@ -81,13 +81,13 @@ export default function Header({ setGuideNum }) {
                 </Link>
                 <ol className="flex flex-col gap-1 pl-2 pt-1 text-[#00B1B0]">
                   <li>
-                    <Link onClick={() => setGuideNum(6)}>1. 산림 면적</Link>
+                    <Link to="/guide" onClick={() => setGuideNum(6)}>1. 산림 면적</Link>
                   </li>
                   <li>
-                    <Link onClick={() => setGuideNum(7)}>2. 파이차트</Link>
+                    <Link to="/guide" onClick={() => setGuideNum(7)}>2. 파이차트</Link>
                   </li>
                   <li>
-                    <Link onClick={() => setGuideNum(8)}>3. 그래프</Link>
+                    <Link  to="/guide" onClick={() => setGuideNum(8)}>3. 그래프</Link>
                   </li>
                 </ol>
               </li>
